@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Abdo | Full-Stack Developer Portfolio
 
-## Getting Started
+My personal portfolio site — built to showcase the projects I've worked on and make it easy for people to get in touch about freelance work.
 
-First, run the development server:
+**Live site:** [portfolio-abdo-dd14.vercel.app](https://portfolio-abdo-dd14.vercel.app)
+
+## About
+
+I'm a Computer Science student and full-stack developer specializing in React and Next.js, currently taking on freelance web development work. This site is where I showcase my projects and skills, and it's the easiest way to reach me.
+
+## Tech Stack
+
+- **Framework:** [Next.js](https://nextjs.org) (App Router)
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **Icons:** react-icons
+- **Deployment:** Vercel
+
+## Sections
+
+- **Hero** — quick intro and availability status
+- **Skills** — technologies I work with
+- **Selected Work** — featured projects with live demos and source code
+- **Contact** — ways to reach me (email, GitHub, LinkedIn, WhatsApp)
+
+## Running Locally
+
+Clone the repo and install dependencies:
+
+```bash
+git clone https://github.com/Abdo-dev-Ali/portfolio.git
+cd portfolio
+npm install
+```
+
+Then run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser. The page auto-updates as you edit files under `src/`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+src/
+  app/            # App Router entry point, layout, and global styles
+  components/     # Nav, Hero, Skills, Projects, Contact
+  data/           # Project data (src/data/projects.ts)
+public/           # Static assets (images, project screenshots)
+```
 
-## Learn More
+## Contact
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Email: abdelrahman.dev.ali@gmail.com
+- GitHub: [@Abdo-dev-Ali](https://github.com/Abdo-dev-Ali)
+- LinkedIn: [Abdo Ali](https://www.linkedin.com/in/abdo-ali-2b8793438)

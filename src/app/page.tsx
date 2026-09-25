@@ -10,11 +10,9 @@ export default function Home() {
       <Nav />
       <main>
         <Hero />
-          <Skills />
+        <Skills />
         <Projects />
         <Contact />
-
-        {/* باقي الأقسام هنضيفها هنا واحدة ورا التانية */}
       </main>
     </>
   );

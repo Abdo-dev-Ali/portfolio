@@ -1,5 +1,5 @@
-import { SiGmail, SiGithub, SiLinkerd, SiWhatsapp } from "react-icons/si";
-
+import { SiGmail, SiGithub, SiWhatsapp } from "react-icons/si";
+import {FaLinkedinIn} from "react-icons/fa"
 const links = [
   {
     label: "Email",
@@ -16,7 +16,7 @@ const links = [
   {
     label: "LinkedIn",
     href: "https://www.linkedin.com/in/abdo-ali-2b8793438",
-    Icon: SiLinkerd,
+    Icon: FaLinkedinIn,
     color: "#0a66c2",
   },
   {

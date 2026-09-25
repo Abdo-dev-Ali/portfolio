@@ -8,6 +8,7 @@ import {
   SiTailwindcss,
   SiGit,
   SiSupabase,
+  SiVite
 } from "react-icons/si";
 
 const skills = [
@@ -20,6 +21,8 @@ const skills = [
   { name: "Tailwind CSS", Icon: SiTailwindcss, color: "#38bdf8" },
   { name: "Git", Icon: SiGit, color: "#f05032" },
   { name: "Supabase", Icon: SiSupabase, color: "#3ecf8e" },
+  { name: "Vite", Icon: SiVite, color: "#646cff" },
+
 ];
 
 export default function Skills() {

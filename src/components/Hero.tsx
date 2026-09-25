@@ -13,12 +13,12 @@ export default function Hero() {
         </div>
 
         <h1 className="max-w-2xl font-[family-name:var(--font-heading)] text-3xl font-semibold leading-[1.15] tracking-tight sm:text-5xl">
-          Abdo, a full-stack developer who builds fast, practical web apps.
+          Abdo, a Frontend Developer developer who builds fast, practical web apps.
         </h1>
 
         <p className="mt-6 max-w-xl text-base leading-relaxed text-text-muted sm:text-lg">
           I design and build websites and web applications end to end. Currently a
-          Computer Science student, taking on freelance work for people who need
+          Computer and Information Sciences Student, taking on freelance work for people who need
           a working product.
         </p>
 
@@ -34,6 +34,13 @@ export default function Hero() {
             className="rounded-full border border-hairline px-6 py-3 text-sm font-medium transition-colors hover:border-accent hover:text-accent"
           >
             Start a project
+          </a>
+          <a
+            href="/cv.pdf"
+            download
+            className="rounded-full px-6 py-3 text-sm font-medium text-text-muted underline decoration-hairline underline-offset-4 transition-colors hover:text-accent"
+          >
+            Download CV
           </a>
         </div>
       </div>

@@ -10,16 +10,6 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    slug: "task-manager",
-    name: "Task Manager",
-    description:
-      "A to-do app with real user accounts, built on Supabase with email verification and row-level security so each user only sees their own tasks.",
-    stack: ["React", "JavaScript", "Supabase"],
-    image: "/projects/task-manager.png",
-    demo: "https://task-manager-navy-theta-11.vercel.app",
-    github: "https://github.com/Abdo-dev-Ali/task-manager.git",
-  },
-  {
     slug: "expense-tracker",
     name: "Expense Tracker",
     description:
@@ -27,15 +17,25 @@ export const projects: Project[] = [
     stack: ["React", "JavaScript", "Supabase"],
     image: "/projects/expense-tracker.png",
     demo: "https://expense-tracker-orpin-five-73.vercel.app",
-    github: "https://github.com/Abdo-dev-Ali/expense-tracker.git",
+    github: "https://github.com/Abdo-dev-Ali/expense-tracker.git"
+  },
+  {
+    slug: "task-manager",
+    name: "Task Manager",
+    description:
+      "A to-do app with real user accounts, built on Supabase with email verification and row-level security so each user only sees their own tasks.",
+    stack: ["React", "JavaScript", "Supabase"],
+    image: "/projects/task-manager.png",
+    demo: "https://task-manager-navy-theta-11.vercel.app",
+    github: "https://github.com/Abdo-dev-Ali/task-manager.git"
   },
   {
     slug: "news-app",
-    name: "News App",
+    name: "News Pulse",
     description: "Browses live news articles by category, fast and clean.",
     stack: ["Next.js", "TypeScript"],
     image: "/projects/news-app.png",
     demo: "https://news-pulse-phi.vercel.app",
-    github: "https://github.com/Abdo-dev-Ali/NewsPulse.git",
-  },
+    github: "https://github.com/Abdo-dev-Ali/NewsPulse.git"
+  }
 ];
