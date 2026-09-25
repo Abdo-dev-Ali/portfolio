@@ -14,10 +14,10 @@ const inter = Inter({
   weight: ["400", "500", "600"],
 });
 
-const siteUrl = "https://portfolio-abdo-dd14.vercel.app";
-const title = "Abdo | Full-Stack Developer";
+const siteUrl = "https://portfolio-alpha-five-b32x7vtqz9.vercel.app";
+const title = "Abdo | Frontend Developer";
 const description =
-  "Full-stack developer specializing in React and Next.js, available for freelance web development work.";
+  "Frontend developer specializing in React and Next.js, available for freelance web development work.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   description,
   keywords: [
     "Abdo",
-    "Full-Stack Developer",
+    "Frontend Developer",
     "Next.js Developer",
     "React Developer",
     "Frontend Developer Egypt",
@@ -38,13 +38,13 @@ export const metadata: Metadata = {
     title,
     description,
     url: siteUrl,
-    siteName: "Abdo | Full-Stack Developer",
+    siteName: "Abdo | Frontend Developer",
     images: [
       {
         url: "/me.jpg",
         width: 996,
         height: 1053,
-        alt: "Abdo - Full-Stack Developer",
+        alt: "Abdo - Frontend Developer",
       },
     ],
     locale: "en_US",

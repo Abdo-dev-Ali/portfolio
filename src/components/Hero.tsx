@@ -13,7 +13,7 @@ export default function Hero() {
         </div>
 
         <h1 className="max-w-2xl font-[family-name:var(--font-heading)] text-3xl font-semibold leading-[1.15] tracking-tight sm:text-5xl">
-          Abdo, a Frontend Developer developer who builds fast, practical web apps.
+          Abdo, a Frontend Developer who builds fast, practical web apps.
         </h1>
 
         <p className="mt-6 max-w-xl text-base leading-relaxed text-text-muted sm:text-lg">

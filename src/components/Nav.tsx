@@ -3,9 +3,10 @@
 import { useState } from "react";
 
 const links = [
+  { href: "#services", label: "Services" },
   { href: "#work", label: "Work" },
   { href: "#skills", label: "Skills" },
-  { href: "#contact", label: "Contact" },
+  { href: "#contact", label: "Contact" }
 ];
 
 function Nav() {

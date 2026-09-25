@@ -1,12 +1,12 @@
-# Abdo | Full-Stack Developer Portfolio
+# Abdo | Frontend Developer Portfolio
 
 My personal portfolio site — built to showcase the projects I've worked on and make it easy for people to get in touch about freelance work.
 
-**Live site:** [portfolio-abdo-dd14.vercel.app](https://portfolio-abdo-dd14.vercel.app)
+**Live site:** [portfolio-alpha-five-b32x7vtqz9.vercel.app](https://portfolio-alpha-five-b32x7vtqz9.vercel.app)
 
 ## About
 
-I'm a Computer Science student and full-stack developer specializing in React and Next.js, currently taking on freelance web development work. This site is where I showcase my projects and skills, and it's the easiest way to reach me.
+I'm a Computer Science student and frontend developer specializing in React and Next.js, currently taking on freelance web development work. This site is where I showcase my projects and skills, and it's the easiest way to reach me.
 
 ## Tech Stack
 
